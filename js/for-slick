@@ -1,26 +1,26 @@
-    $(document).ready(function () {
-      $('.slider').slick({
-        autoplay: true,
-        arrows: false,
-        pauseOnFocus: true,
-           autoplaySpeed: 2000
-        //TODO set breakpoints. Default none
-        // Object containing breakpoints and settings objects(see demo).Enables
-        // settings sets at given screen width.Set settings to "unslick" instead of
-        // an object to disable slick at a given breakpoint.
-        //responsive: none
-      });
+$(document).ready(function () {
+  $('.slider').slick({
+    autoplay: true,
+    arrows: false,
+    pauseOnFocus: true,
+    autoplaySpeed: 2000
+    //TODO set breakpoints. Default none
+    // Object containing breakpoints and settings objects(see demo).Enables
+    // settings sets at given screen width.Set settings to "unslick" instead of
+    // an object to disable slick at a given breakpoint.
+    //responsive: none
+  });
 
-/* $(function () {
-$(".single-item").slick();
-});
- */
+  $(function () {
+    $(".single-item").slick();
+  });
 
-// $(function () {
-//   $(".multiple").slick({
-//     infinite: true,
-//     slidesToShow: 3,
-//     slidesToScroll: 2,
-//   });
-// });
 
+  $(function () {
+    $(".multiple").slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 2,
+    });
+  });
+})

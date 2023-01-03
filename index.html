@@ -40,79 +40,73 @@
     </div>
   </div>
 
-  <!-- <ul class="multiple">
-    <li class="first-slide">
-      <h1>Slide 1</h1>
-    </li>
-    <li class="second-slide">
-      <h1>Slide 2</h1>
-    </li>
-    <li class="third-slide">
-      <h1>Slide 3</h1>
-    </li>
-    <li class="first-slide">
-      <h1>Slide 4</h1>
-    </li>
-    <li class="second-slide">
-      <h1>Slide 5</h1>
-    </li>
-    <li class="third-slide">
-      <h1>Slide 6</h1>
-    </li>
-  </ul> -->
+      <div class="reviews__list single-item">
+        <!-- single-item -->
+        <div class="reviews__item">
+          <div class="reviews__img customer1"></div>
+          <div class="reviews__feedback">
+            <div class="reviews__text">I love visiting your cafe.
+              You prepare the most delicious ice cream in Los Angeles!
+              In addition, you have beautiful serving, cozy atmosphere and polite staff.</div>
+          </div>
+          <div class="reviews__name">Emily, Los Angeles</div>
+        </div>
 
+        <div class="reviews__item">
+          <div class="reviews__img customer2"></div>
+          <div class="reviews__feedback">
+            <div class="reviews__text">Ice cream is my passion! I love your chocolate hazelnut ice cream! And
+              I really like the excellent service - always
+              served politely and quickly!</div>
+          </div>
+          <div class="reviews__name">Diana, Chicago</div>
+        </div>
+
+        <div class="reviews__item">
+          <div class="reviews__img customer3"></div>
+          <div class="reviews__feedback">
+            <div class="reviews__text">Every day we come to you with friends after classes in college. We
+              love your ice cream and casual atmosphere!</div>
+          </div>
+          <div class="reviews__name">Bryan, New-York</div>
+        </div>
+        <div class="reviews__item">
+          <div class="reviews__img customer4"></div>
+          <div class="reviews__feedback">
+            <div class="reviews__text">Our kids had the best birthday party on
+              the planet in your cafe!
+              We will come next year too!</div>
+          </div>
+          <div class="reviews__name">Kevin, Chicago</div>
+        </div>
+        <div class="reviews__item">
+          <div class="reviews__img customer5"></div>
+          <div class="reviews__feedback">
+            <div class="reviews__text">Thank you for your kind assistance
+              and patience! With your franchise it feels like being a member
+              of big family along a road to success in business! </div>
+          </div>
+          <div class="reviews__name">Daniel, New-York</div>
+        </div>
+      </div>
 
   <!-- jQuery script must be above slick script -->
-  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
-    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<!-- local scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
 
-  <!-- slick minified js -->
+    <!-- you can also use scrips from external sources -->
+<!-- <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+-->
+  <!-- slick minified js
   <script type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+-->
 
+  <!-- slick carousel functions for gallery -->
+  <script src="./js/gallery-slider.js"></script>
 
-  <!-- slick carousel function used in body above -->
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $('.slider').slick({
-        autoplay: true,
-        arrows: false,
-        pauseOnFocus: true,
-           autoplaySpeed: 2000
-        //TODO set breakpoints. Default none
-        // Object containing breakpoints and settings objects(see demo).Enables
-        // settings sets at given screen width.Set settings to "unslick" instead of
-        // an object to disable slick at a given breakpoint.
-        //responsive: none
-      });
-    });
-      </script>
-<!--
-      $('.multiple').slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 2,
-        arrows: true,
-        dots: true,
-        autoplaySpeed: 300
-     //   appendArrows: $(element)
-      });
-    }); -->
-
- <!--    // $('.slider').slick({
-
-    //
-
-    // $('.multiple').slick({
-    //     infinite: true,
-    //     slidesToShow: 3,
-    //     slidesToScroll: 2
-    //   });
-  -->
-
-  <!-- <script src="js.jquery-2.2.4.min.js"></script>
-  <script src="js/slack.min.js"></script> -->
-  <!-- <script src="js/for-slick"></script> -->
 </body>
 
 </html>
