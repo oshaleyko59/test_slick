@@ -96,8 +96,6 @@ img size
   margin: 0 auto;
   border-radius: 8px;
   overflow: hidden;
-  background-color: orange;
-  outline: solid 1px red;
 }
 @media screen and (max-width: 479px) {
   .your-slider-class {
