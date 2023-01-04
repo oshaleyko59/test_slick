@@ -1,0 +1,71 @@
+
+// colors //
+$colors: (
+    'main-background-color': #84a178,
+    'main-yellow': #f8d24e,
+    'main-text-black': #131313,
+    'modalback-and-textcolor-white': #fcfcfc,
+
+    'product-ingredients-green': #aec6a5,
+    'product-background-yellow': #efd478,
+    'product-text-babyshit': #d6936d,
+    'bright-green-btn': #0a8817,
+
+    'personal-info-background': rgba(248, 210, 78, 0.1),
+    'text-grey': #ababab,
+    'all-rights-text': #7a7a7a,
+    'inactive-control-gray': #d9d9d9 //OD: used in _about & _products partials TODO
+);
+@function getColor($key) {
+    @return map-get($colors, $key);
+}
+
+        // кубік бізаір
+        $cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+        // стандартний час переходу
+        $main-transition-time: 250ms;
+
+
+        /*fonts*/
+
+        /*body base fonts*/
+                    @mixin base-fonts {
+                    font-family: 'Montserrat', sans-serif;
+                    font-style: normal;
+                    line-height: 1.22;
+                    font-size: 14px;
+                    letter-spacing: 0.04em;
+                }
+
+                @mixin section_title-fonts {
+                    font-family: 'Seymour One';
+                    font-size: 30px;
+                    text-transform: uppercase;
+
+                    @media screen and (min-width: 768px) {
+                        font-size: 34px;
+                        letter-spacing: 0.06em;
+                    }
+
+                    @media screen and (min-width: 1200px) {
+                        font-size: 36px;
+                    }
+                }
+
+                @mixin section_label-fonts {
+                    font-weight: 800;
+                    font-size: 18px;
+                    text-transform: uppercase;
+
+                    @media screen and (min-width: 768px) {
+                        font-size: 22px;
+                    }
+
+                    @media screen and (min-width: 1200px) {
+                        font-size: 30px;
+                    }
+                }
+
+                                html {
+                                    scroll-behavior: smooth;
+                                }

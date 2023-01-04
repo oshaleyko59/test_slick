@@ -1,2 +1,2 @@
 # test_slick
-test slick
+based on gallery section of icecream project
